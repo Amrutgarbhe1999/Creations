@@ -1,0 +1,437 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 12vh;
+
+}
+
+.logo h1 {
+    font-size: 22px;
+
+}
+
+.items ul {
+    display: flex;
+    gap: 2rem;
+}
+
+.items ul li {
+    list-style: none;
+}
+
+.items ul li a {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+
+.headername {
+    position: absolute;
+    bottom: 8rem;
+    left: 5rem;
+
+
+}
+
+.headername h1 {
+    color: white;
+    font-size: 5rem;
+    left: 3rem;
+}
+
+.headername span {
+    font-size: 7rem;
+}
+
+.welcome {
+    width: 100vw;
+}
+
+.welcome img {
+    width: 100%;
+    filter: brightness(58%);
+    height: 96vh;
+}
+
+.headername a {
+    color: black;
+    background: white;
+    padding: 15px;
+    text-decoration: none;
+    outline: none;
+    border: none;
+    font-size: 18px;
+    margin-top: 6rem;
+}
+
+.contact {
+    position: absolute;
+    background-color: rgb(197, 28, 28);
+    bottom: -2.6rem;
+    display: flex;
+    gap: 18rem;
+    height: 3rem;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+
+}
+
+.contact span {
+    font-weight: bold;
+}
+
+.contact p {
+    color: white;
+    margin-left: 10px;
+    font-size: 17px;
+    font-weight: lighter;
+
+}
+
+.Wedo {
+    margin-top: 6rem;
+}
+
+.Doimg img {
+    width: 100%;
+    height: 100%;
+}
+
+.Doimg {
+    position: relative;
+    bottom: 11rem;
+    left: 34.5rem;
+    height: 70vh;
+    width: 37%;
+}
+
+
+.Dosec,
+.Doimg {
+    width: 40%;
+    color: white;
+}
+
+.Dosec {
+    background-color: #161616;
+    height: 70vh;
+    margin-left: 7.5rem;
+}
+
+.DO {
+    padding: 4rem 5rem;
+}
+
+.DO p {
+    font-size: 17px;
+    line-height: 22px;
+    font-weight: lighter;
+}
+
+.DO a {
+    color: white;
+    padding: 1rem;
+    text-decoration: none;
+    font-size: 16px;
+    background-color: transparent;
+    border: 1px solid white;
+
+}
+
+.services {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+.services img {
+    width: 90%;
+    height: 66vh;
+    filter: brightness(50%);
+    margin-left: 1rem;
+}
+
+.serviceline {
+    width: 80%;
+    position: relative;
+    bottom: 6rem;
+    margin: auto;
+    text-align: center;
+
+}
+
+.serviceline p {
+    font-size: 15px;
+    border: 1px solid wheat;
+    padding: 12px 0;
+    background-color: rgb(197, 28, 28);
+    color: white;
+}
+
+.offer {
+    display: flex;
+    height: 81.2vh;
+}
+
+.offerone img {
+    width: 100%;
+    filter: brightness(50%);
+}
+
+.offerone {
+    width: 60%;
+
+}
+
+.offertwo {
+    width: 40%;
+    background-color: #161616;
+}
+
+.offerhead {
+    padding: 5rem 3rem;
+}
+
+.offertwo h2 {
+    font-size: 4rem;
+}
+
+.offertwo p {
+    font-size: 15px;
+    line-height: 25px;
+}
+
+.offerhead p,
+h2 {
+    color: white;
+}
+
+.offerhead h4 {
+    color: white;
+    padding: 1rem;
+    border: 1px solid white;
+    margin: auto;
+    text-align: center;
+    margin-top: 2rem;
+    background: transparent;
+}
+
+.Getintouch img {
+    width: 100%;
+    filter: brightness(50%);
+}
+
+.inputs {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    margin-top: 2rem;
+}
+
+.Getintouch {
+    margin-top: 3rem;
+    height: 100vh;
+}
+
+.inputs textarea {
+    width: 100%;
+    margin-top: 3rem;
+    background: rgb(255, 255, 255);
+    outline: none;
+    border-bottom: 1px solid white;
+}
+
+.inputs textarea::placeholder {
+    color: rgb(0, 0, 0);
+    text-align: center;
+}
+
+.inputtwo {
+    margin-top: 1rem;
+}
+
+.inputone,
+.inputtwo {
+    display: flex;
+    gap: 3rem;
+}
+
+.head h1 {
+    color: white;
+    font-size: 3rem;
+}
+
+.inputs input {
+    padding: 1rem 3rem;
+    background-color: rgb(255, 255, 255);
+    border-bottom: 1px solid white;
+    outline: none;
+    color: rgb(2, 2, 2);
+
+}
+
+.inputs input::placeholder {
+    color: rgb(0, 0, 0);
+}
+
+.touch {
+    position: relative;
+    bottom: 38rem;
+    width: 36%;
+    left: 31rem;
+}
+
+.loginblock button {
+    margin: auto;
+    padding: 1rem;
+    margin-top: 1rem;
+
+}
+
+
+
+@media only screen and (min-width: 375px) {
+    .headername h1 {
+        font-size: 4rem;
+    }
+
+    .headername span {
+        font-size: 5rem;
+    }
+
+    .headername a {
+        padding: 11px;
+    }
+
+    .welcome {
+        width: 100%;
+    }
+
+    .welcome img {
+        width: 100%;
+    }
+
+    .logo h1 {
+        font-size: 12px;
+    }
+
+    .items ul {
+        display: flex;
+        gap: 1rem;
+    }
+
+    .items ul li a {
+        text-decoration: none;
+        color: black;
+        font-size: 12px;
+    }
+
+    .welcome img {
+        width: 100%;
+        height: 62vh;
+    }
+
+    .headername {
+        position: absolute;
+        bottom: 25rem;
+        left: 2rem;
+    }
+
+    .headername h1 {
+        font-size: 3rem;
+    }
+
+    .headername span {
+        font-size: 3rem;
+    }
+
+    .contact {
+        gap: 1rem;
+        bottom: 12.4rem;
+    }
+
+    .contact p {
+        font-size: 12px;
+    }
+
+    .Wedo {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .Dosec {
+        background-color: #161616;
+        height: 67vh;
+
+    }
+
+    .Dosec {
+        width: 100%;
+        margin-left: 0px;
+    }
+
+    .Doimg {
+        /* position: relative; */
+        bottom: 0%;
+        left: -0.5rem;
+        height: 52vh;
+        width: 102%;
+    }
+
+    .services {
+        flex-direction: column;
+        margin-top: 4rem;
+    }
+
+    .services img {
+        width: 90%;
+        height: 59vh;
+        filter: brightness(53%);
+        margin-left: 1rem;
+    }
+    .offer{
+        flex-direction: column;
+    }
+    .offerone{
+        width: 100%;
+    }
+    .offertwo{
+        width: 100%;
+    margin: -5px 0px;
+    }
+    .touch{
+        left: 0;
+        bottom: 45rem;
+        width: 100%;
+    }
+    .inputs input{
+        padding: 7px 0;
+    }
+    .Getintouch img {
+    width: 100%;
+    height: 100vh;
+    
+}
+
+
+.inputone, .inputtwo {
+    display: flex;
+    gap: 1rem;
+    margin-left: 5.2px;
+}
+.inputs textarea{
+    margin-left: 4rem;
+}
+.loginblock button{
+    margin-left: 7rem;
+}
+}
